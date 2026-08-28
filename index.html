@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dirty Baby — The baby surpise can be another one's.">
+    <title>Dirty Baby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+        <div class="wrap header-inner">
+            <a class="logo" href="#top">Dirty<span>Baby</span></a>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="site-nav" id="siteNav" aria-label="Main">
+                <a href="#about">About</a>
+                <a href="#work">Shop</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="wrap hero-inner">
+                <p class="eyebrow">Dirty Studio - Castione</p>
+                <h1>The baby surprise<br>can be another one's.</h1>
+                <p class="lede">
+                    If you want to prank your friends you are in the right website.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-ghost" href="#contact">Tell us your ideas.</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats">
+            <div class="wrap stats-grid">
+                <div class="stat"><strong>120+</strong><span>Dirty pranks released</span></div>
+                <div class="stat"><strong>6</strong><span>Years running</span></div>
+                <div class="stat"><strong>15</strong><span>Collaborators</span></div>
+                <div class="stat"><strong>100%</strong><span>Made in-house</span></div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="wrap split">
+                <div class="split-text">
+                    <p class="eyebrow">About</p>
+                    <h2>A small company with bigger pranks.</h2>
+                    <p>
+                        We started in a basement with one idea and we had a bad idea. Six years later
+                        the idea is still bad, but we like it. <br>We work with mothers,
+                        and family.
+                    </p>
+                    <p>
+                        No mass production. When an edition sells out it stays sold out.
+                    </p>
+                </div>
+                <div class="split-visual" aria-hidden="true">
+                    <image src="dirty.jpg"></image>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work / services -->
+        <section class="section section-alt" id="shpo">
+            <div class="wrap">
+                <p class="eyebrow">Shop</p>
+                <h2>What we actually sell</h2>
+                <p class="section-lede">Three things, done with love - 5th edition.</p>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-icon">01</div>
+                        <h3>Dirty Diapers &amp; Name</h3>
+                        <p>Prank your friend with a dirty diapers with your name engraved.</p>
+                        <p class="card-meta">From $30 / Diaper</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">02</div>
+                        <h3>Dirty Diapers &amp; Name + Gift packet</h3>
+                        <p>A solid prank with a touch of colors.</p>
+                        <p class="card-meta">From $40 / Diaper</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">03</div>
+                        <h3>Aged Dirty Diaper &amp; Gift packet</h3>
+                        <p>This package has been aged for 1 year and is perfect if you want a spicy smell.</p>
+                        <p class="card-meta">From $500 / Diaper</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="quote-section">
+            <div class="wrap">
+                <blockquote>
+                    “They turned trash into one of the funniest and easiest pranks I've ever seen..”
+                    <cite>— Thomas Ghones Texeira, Nigeria.</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-alt" id="contact">
+            <div class="wrap split">
+                <div class="split-text">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Tell us about this idea.</h2>
+                    <p>
+                        Send a short note about what you think or if you need a special pack — we reply within two working days.
+                    </p>
+                    <ul class="contact-list">
+                        <li><span>Email</span><a href="mailto:support@dirtybaby.studio">support@dirtybaby.studio</a></li>
+                        <li><span>Studio</span>Castione, Via Pannolini 5</li>
+                        <li><span>Hours</span>Mon–Fri, 10:00–18:00</li>
+                    </ul>
+                </div>
+
+                <form class="form" id="contactForm" novalidate>
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+                        <p class="error" data-error-for="name"></p>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com">
+                        <p class="error" data-error-for="email"></p>
+                    </div>
+
+                    <div class="field">
+                        <label for="topic">What's it about?</label>
+                        <select id="topic" name="topic">
+                            <option value="print">Pack &amp; editions</option>
+                            <option value="records">Delivery</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="A couple of sentences is plenty."></textarea>
+                        <p class="error" data-error-for="message"></p>
+                    </div>
+
+                    <button class="btn btn-primary btn-block" type="submit">Send message</button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <div>
+                <a class="logo" href="#top">Dirty<span>Baby</span></a>
+                <p class="footer-note">Small pack, no runs.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="#about">About</a>
+                <a href="#work">Shop</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="copyright">© <span id="year">2026</span> Dirty Baby Studio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
