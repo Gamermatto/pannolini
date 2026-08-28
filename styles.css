@@ -215,8 +215,8 @@ img { max-width: 100%; display: block; }
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
     padding-top: 34px;
     padding-bottom: 34px;
 }
